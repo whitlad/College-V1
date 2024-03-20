@@ -17,7 +17,7 @@ public class Student {
         /** student name for the constructors**/
         this.name = aName;
         this.age = anAge;
-        this.nickNames = new ArrayList<>();  //initialising field empty arraylist
+        this.nickNames = new ArrayList<>();  //initialising field empty arraylist **must be done
 
     }
 
@@ -46,7 +46,7 @@ public class Student {
     }
 
     /**
-     * Increments the value of hte age firled of the student
+     * Increments the value of the age field of the student
      */
     public void birthday() {
         this.age++;

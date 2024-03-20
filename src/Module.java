@@ -41,7 +41,7 @@ public class Module
         this.students.remove(index);
     }
 
-    public void cancelEnrolment(String name)
+    public void cancelEnrolment(String name) //finds name in list and removes it
     {
        int index = -1;
        int count = 0;
@@ -70,7 +70,7 @@ public class Module
 
     public void printEnrolledStudents()
     {
-        for (Student eachStudent : this.students)
+        for (Student eachStudent : this.students) //loop variable
         {
            // System.out.println(eachStudent.getName()); //add the .getName to get a logical
             System.out.print(eachStudent.getName() + "  age  " + eachStudent.getAge() + "\n");
